@@ -73,8 +73,13 @@ A web application for creating passport photos that meet official requirements. 
 - Take a photo 
   - Good approach is to use natural light (not direct)
   - Put the subject some 1-1.5 meters from a white wall to avoid shadows
-  - Step back some 2-3 meters to avoid distortion of the small mobile phone lens 
+  - Step back some 2-3 meters to avoid distortion of the small mobile phone lens. Here subject standing on a sofa and I have zoomed in a bit with my mobile phone.
+  - It's sufficient that the "right behind the head" part is flatly illuminated. There is slight shadow on the left but I think it is ok.
+  - No kittens where harmed!
+![Raw Passport Photo](raw_passport.png)
   - Instructions on what kind of photo is acceptable from Finnish police: https://lupakuvienvastaanotto.fi/FaceImageHelp/Photography.aspx
+
+
 
 - Upload the photo to police database: 
   - Sign in as a private person: https://lupakuvienvastaanotto.fi/Login/Login.aspx
@@ -83,7 +88,7 @@ A web application for creating passport photos that meet official requirements. 
     - You will be given guidance on what is acceptable, etc. Check carefully
     - At the end, you will get a code like "ACD UKL ZK8" 
       - This is the code you will need when applying for ID or passport - so keep it safe
-      - Note that there is a BUG or discrepancy that the real code is without spaces, i.e., "ACD UKL ZK8" -> "ACDUKLZK8" when applying for a passport at lupakuvienvastaanotto
+      - Note that there is a BUG or discrepancy that the real code is without spaces, i.e., "ACD UKL ZK8" -> "ACDUKLZK8" when applying for a passport at lupakuvien vastaanotto
 
 - Apply for a passport or ID here: 
   - https://asiointi.poliisi.fi/yksityis/hekopassi
