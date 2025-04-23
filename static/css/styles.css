@@ -36,6 +36,37 @@ header p {
     color: #7f8c8d;
 }
 
+.support-link {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.support-link a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.kofi-button {
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.kofi-text {
+    margin-left: 8px;
+    color: #3498db;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.support-link a:hover .kofi-text {
+    color: #2980b9;
+}
+
+.kofi-button:hover {
+    transform: scale(1.05);
+}
+
 main {
     max-width: 1200px;
     margin: 0 auto;
