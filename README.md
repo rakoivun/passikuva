@@ -10,6 +10,7 @@ A web application for creating passport photos that meet official requirements. 
 ## High level process
 - Take a photo [(more on it below)](#detailed-process)
 - Use this tool to ensure that it's of correct size & person is at right position
+ * Online version MIGHT be operational here https://passikuva.onrender.com/ . I am not storing the images on the server (trust me?)
 - Upload the tool to Finnish police db
 
 ## Features
