@@ -4,6 +4,11 @@
 
 A web application for creating passport photos that meet official requirements. This tool helps users adjust and crop their photos to exact specifications required for passports, visas, and other official documents.
 
+## High level process
+- Take a photo (more on it below)
+- Use this tool to ensure that it's of correct size & person is at right position
+- Upload the tool to Finnish police db
+
 ## Features
 
 - **Precise Guidance**: Visual guides showing exact positioning requirements for head size and position
@@ -59,6 +64,30 @@ A web application for creating passport photos that meet official requirements. 
    - The chin is between the orange lines
    - The face is centered within the vertical orange guides
 4. Click "Save Photo" to download the properly formatted passport photo
+
+## Detailed process
+- Take a photo 
+* Good approach is to use natural light (not direct)
+* Put the subject some 1-1.5 meters from a white wall to avoid shadows
+* Step back some 2-3 meters to avoid distortion of the small mobile phone lense 
+* Take the picture. 
+* Instructions on what kind of photo is acceptable from Finnish police https://lupakuvienvastaanotto.fi/FaceImageHelp/Photography.aspx
+* Upload the photo to police database : 
+  - Sign in as private person: https://lupakuvienvastaanotto.fi/Login/Login.aspx
+   * Register as private person if not registered yet
+* Upload the processed image by following the instructions https://lupakuvienvastaanotto.fi/NewPhoto/AddNewPhotoView.aspx
+  - You will be given guidance what is acceptable etc.. check carefully
+  - At the end you will get code like "ACD UKL ZK8" 
+   * This is the code you will need when applying for ID or passport - so keep it safe
+   * Note that there is a BUG or a discrepency that real code is without spaces i.e. "ACD UKL ZK8" -> "ACDUKLZK8" when applying for a passport at lupakuvienvastaanotto
+* apply for a passport or id here 
+ - https://asiointi.poliisi.fi/yksityis/hekopassi
+ 
+
+   
+
+- Use this tool to ensure that it's of correct size & person is at right position
+- Upload the tool to Finnish police db
 
 
 ## Technology Stack
