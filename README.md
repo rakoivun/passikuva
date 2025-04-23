@@ -1,4 +1,6 @@
 # Passport Photo Creator
+If you find this usefull consider https://ko-fi.com/rakoivun
+
 ![Screenshot of the Passport Photo Creator application](Screenshot%202025-04-23%20170111.png)
 
 
