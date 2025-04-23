@@ -29,6 +29,8 @@ wheels/
 *.jpg
 *.jpeg
 *.png
+!generated_image.png
+!Screenshot 2025-04-23 170111.png
 *.gif
 *.bmp
 uploads/*
