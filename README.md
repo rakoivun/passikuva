@@ -1,5 +1,6 @@
 # Passport Photo Creator
-If you find this usefull consider https://ko-fi.com/rakoivun
+If you find this usefull consider [![Buy me a coffee](https://storage.ko-fi.com/cdn/useruploads/a558000e-d26e-4f61-ad83-153e48aac7b4_65373672-3cb1-4b02-b5cc-989573f6284a.png)](https://ko-fi.com/rakoivun)
+
 
 ![Screenshot of the Passport Photo Creator application](Screenshot%202025-04-23%20170111.png)
 
