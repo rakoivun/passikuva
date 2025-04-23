@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passport Photo Creator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Passport Photo Creator</h1>
+        <p>Create passport photos that meet official requirements</p>
+    </header>
+
+    <main>
+        <div class="photo-creator">
+            <div class="canvas-container">
+                <canvas id="photoCanvas"></canvas>
+                <div class="guides">
+                    <div id="top-guide-min" class="guide">
+                        <span class="guide-label">Top Min (4mm)</span>
+                    </div>
+                    <div id="top-guide-max" class="guide">
+                        <span class="guide-label">Top Max (6mm)</span>
+                    </div>
+                    <div id="chin-guide-min" class="guide">
+                        <span class="guide-label">Chin Min (7mm)</span>
+                    </div>
+                    <div id="chin-guide-max" class="guide">
+                        <span class="guide-label">Chin Max (9mm)</span>
+                    </div>
+                    <div class="guide horizontal-center-guide">
+                        <span class="guide-label">±1.5 mm</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="control-group">
+                    <h2>Photo</h2>
+                    <button id="uploadBtn" class="btn upload-btn">Upload Photo</button>
+                </div>
+
+                <div class="control-group">
+                    <h2>Adjust</h2>
+                    <div class="button-row">
+                        <button id="rotateLeftBtn" class="btn" disabled>↺ Rotate Left</button>
+                        <button id="rotateRightBtn" class="btn" disabled>↻ Rotate Right</button>
+                    </div>
+                    <div class="button-row">
+                        <button id="zoomInBtn" class="btn" disabled>+ Zoom In</button>
+                        <button id="zoomOutBtn" class="btn" disabled>- Zoom Out</button>
+                    </div>
+                    <button id="resetBtn" class="btn" disabled>Reset</button>
+                </div>
+
+                <div class="control-group">
+                    <h2>Save</h2>
+                    <button id="saveBtn" class="btn save-btn" disabled>Save Photo</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h2>Requirements</h2>
+            <ul>
+                <li>Photo size: 35x45mm</li>
+                <li>Head height: 32-36mm (from chin to crown)</li>
+                <li>Eye line: should be 22-27mm from bottom of photo</li>
+                <li>Neutral facial expression, looking straight at camera</li>
+                <li>Plain, light-colored background</li>
+                <li>No shadows on face or background</li>
+                <li>No head coverings unless for religious reasons</li>
+            </ul>
+            <p class="note">Adjust your photo using the controls to ensure it meets these requirements. Your face should be centered within the guide lines.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Passport Photo Creator | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html> 
