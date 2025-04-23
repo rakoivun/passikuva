@@ -8,7 +8,7 @@ If you find this useful consider [![Buy me a coffee](https://storage.ko-fi.com/c
 A web application for creating passport photos that meet official requirements. This tool helps users adjust and crop their photos to exact specifications required for passports, visas, and other official documents.
 
 ## High level process
-- Take a photo (more on it below)
+- Take a photo [(more on it below)](#detailed-process)
 - Use this tool to ensure that it's of correct size & person is at right position
 - Upload the tool to Finnish police db
 
