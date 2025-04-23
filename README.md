@@ -58,6 +58,8 @@ A web application for creating passport photos that meet official requirements. 
    - The face is centered within the vertical orange guides
 4. Click "Save Photo" to download the properly formatted passport photo
 
+![Screenshot of the Passport Photo Creator application](Screenshot%202025-04-23%20170111.png)
+
 ## Technology Stack
 
 - **Backend**: Flask (Python)
